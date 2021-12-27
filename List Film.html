@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>List Film</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: candara;
+  padding: 10px;
+  background: white;
+  color: #997474;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 50px;
+  text-align: center;
+  background-image: url(back.png);
+}
+
+.header h1 {
+  font-size: 80px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #FCB2A9;
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block ;
+  color: #FFFFF8;
+  text-align: center;
+  font-size: 18px;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+ background-color:#FEDCD2;
+  color:#FFFFF8;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+/* Fake image */
+.fakeimg {
+  width: 25%;
+  height: 360px
+  background-repeat:no-repeat;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 40px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Footer */
+.footer {
+ padding: 10px;
+  text-align: center;
+  background: #FCB2A9;
+  margin-top: 20px;
+  color: #FFFFF8;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 800px wide, 
+make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+/* Responsive layout - when the screen is less than 400px wide, 
+make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>Nonton Apa Hari Ini?</h1>
+<p>Review Film & Drama<p>
+</div>
+
+<div class="topnav">
+  <a href="Beranda.html">BERANDA</a>
+  <a href="Tentang Web.html">TENTANG WEB</a>
+  <a href="List Film.html">LIST FILM</a>
+  <a href="Connect with Me.html" style="float:right">CONNECT WITH ME</a>
+</div>
+
+<div class="row">
+    <div class="card">
+      <h2>List Film Favorit</h2>
+      <p>Halo Sobat Nonton! Buat kamu yang bingung mau nonton film apa, di bawah ini aku punya beberapa rekomendasi film favoritku sepanjang masa. Yuk, kepoin trailernya dengan cara klik judul film yang kamu pilih, siapa tau kamu juga suka!</p>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="COCO.jpg" alt="" width="600" height="400">
+    <div class="desc"><a href="https://www.youtube.com/watch?v=Rvr68u6k5sI">COCO</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="THE.jpg" alt="" width="600" height="400">
+    <div class="desc"><a href="https://www.youtube.com/watch?v=AXCTMGYUg9A">The Greatest Showman</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="DRAGON.jpg" alt="" width="600" height="400">
+    <div class="desc"><a href="https://www.youtube.com/watch?v=2BP38770KNo">How To Train Your Dragon 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="HARPOT2.jpg" alt="" width="600" height="400">
+    <div class="desc"><a href="https://www.youtube.com/watch?v=3EGojp4Hh6I">Harry Potter and the Goblet of Fire</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="footer">
+  <p>Author: 12180160 - Padmawati<br>
+  <a href="padmawati794@gmail.com">padmawati794@gmail.com</a></p>
+  <a href="https://instagram.com/padma00"><img src="instagram.png" width="40" height="40"></a>
+  <a href="https://www.youtube.com/PadmaLie"><img src="youtube.png" width="40" height="40"></a>
+</div>
+
+</body>
+</html>
